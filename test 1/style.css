@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.c {
+  background-color: blanchedalmond;
+  height: 100vh;
+
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.c > section {
+  scroll-snap-align: center;
+}
+
+section {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(4) {
+  background-color: rgb(12, 12, 12);
+  color: #ebcfb2;
+}
+section:nth-child(3) {
+  background-color: rgb(22, 22, 22);
+  color: #d5aca9;
+}
+section:nth-child(2) {
+  background-color: rgb(32, 32, 32);
+  color: #c5baaf;
+}
+section:nth-child(1) {
+  background-color: rgb(42, 42, 42);
+  color: #b38d97;
+}
